@@ -3,7 +3,7 @@
 #include <iostream>
 
 struct queue {
-	void* buf[1024];
+	void* buf[1024]; // not true queue bc its static & not dynamic, oops!!!
 	int i = 0;
 
 	void* front;
